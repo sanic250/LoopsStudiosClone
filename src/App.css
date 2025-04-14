@@ -1,22 +1,107 @@
 .main-container{
   height: 100vh;
   width: 100%;
+  font-family: "Alata",sans-serif;
+}
+
+
+  .wrapper {
+    position: relative;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .navbar {
   position: relative;
   width: 100%;
-  height: 80px; /* Dostosuj według potrzeb */
+  height: 600px; /* Dostosuj według potrzeb */
 }
 .hero-bg{
   position: absolute;
-  z-index: 10;
+  z-index: 1;
   background-image: url(./assets/desktop/image-hero.jpg);
   width: 100%;
   height: 600px;
   background-size: cover;
+  
 }
 
 .logo-container{
-  z-index: 1;
+  position: relative;
+  z-index: 11;
+}
+
+.navigation{
+  padding-top: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-links{
+  display: flex;
+  gap:30px;
+  font-size: 18px;
+  position: relative;
+  z-index: 12;
+  font-weight: 600;
+  color: white;
+}
+
+.title{
+  position: relative;
+  z-index: 15;
+ 
+  margin-top: 7rem;
+ 
+  color: white;
+
+  
+ 
+}
+
+
+.title h1{
+  letter-spacing: 0.5rem;
+  width: 29rem;
+  font-size: 2.5rem;
+  font-weight: 100;
+  border: 3px solid white;
+  padding: 1rem;
+  height: 13rem;
+}
+  
+
+.section{
+  height: 800px;
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+.section-one-photo{
+ 
+}
+
+
+.section-one-right{
+  position: relative;
+  gap: 2rem;
+  top:20%;
+  padding: 5rem 3.5rem;
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+  
+  align-items: center;
+  left:-10%;
+  background-color:white;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.section-one-right h2{
+  font-size: 2.5rem;
+  font-weight:100;
 }
